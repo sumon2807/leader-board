@@ -9,3 +9,41 @@
 body{
     font-family: 'Poppins', sans-serif;
 }
+.container{
+    background: rgb(66, 65, 65);
+    display: flex;
+    justify-content: center;
+}
+a{
+    text-decoration: none;
+}
+/*-----------------------
+    Top Cources Part
+-------------------------*/
+.top-courses{
+    background: rgb(229, 192, 192);
+    width: 870px;
+    height: 362px;
+}
+.course-title{
+    padding-top: 20px;
+    color: #562EFF;
+}
+.courses{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.course{
+    border: 1px solid;
+    margin: 25px;
+    padding: 10px;
+}
+.course-banner img{
+    width: 224px;
+    height: 104px;
+    padding-bottom: 10px;
+}
+.course-info{
+    display: flex;
+    padding-top: 20px;
+}
